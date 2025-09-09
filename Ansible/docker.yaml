@@ -24,7 +24,7 @@
     - name: Run Petstore container
       community.docker.docker_container:
         name: pet1
-        image: "srinivasandhatchinsmoorthy/petstore:latest"
+        image: "srinivasandhatchinamoorthy/petstore:latest"
         state: started
         restart_policy: always
         published_ports:
